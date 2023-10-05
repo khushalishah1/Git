@@ -17,7 +17,7 @@ data = xyz(response.json())
 # print(data)
 file = open("data.json", "w")
 file.write(str(data))
-
+print(data)
 
 
 f = open("data.json", "r")
