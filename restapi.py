@@ -20,6 +20,7 @@ file.write(str(data))
 print(response)
 
 
+
 f = open("data.json", "r")
 new_data = json.loads(f.read())
 
